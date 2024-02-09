@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Protest+Strike&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat&display=swap');
+
+a{
+    text-decoration: none;
+    color: white;
+}
+header {
+    background-color: black;
+    color: white;
+    text-align: center;
+    height: 18vmax;
+
+}
+body{
+    margin: 0;
+}
+h1{
+    font-size: 7vmax;
+    margin: 0;
+    font-family: 'Protest Strike', sans-serif;
+    padding-top: 20px;
+}
+.hover:hover{
+    text-decoration: underline;
+}
+header>p{
+    font-family: 'Montserrat', sans-serif;
+
+    
+}
+main>section>p {
+    font-size: 3vmax;
+    font-family:   cursive;
+    font-style: italic;
+    font-weight: bold;
+    margin-left: 40px;
+}
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    height: 4vmax;
+    font-size: 1.5vmax;
+}
+footer>p{
+    margin: auto;
+    padding: 10px;
+}
+
+.imagem{
+    background-repeat: no-repeat;
+    background-position: right center;
+    width: 100%;
+    height: 40vmax;
+    margin-left: 0;
+    font-size: 3vmax;
+    font-family: cursive;
+    font-style: italic;
+    font-weight: bold;
+    box-shadow: inset 5px 5px 14px rgba(0, 0, 0, 0.418);
+    text-shadow: 1px 1px 0px black;
+    background-attachment: fixed;
+
+}
+#img1>p, #img2>p{
+    background-color: rgba(0, 0, 0, 0.144);
+    display: inline-block;
+    color: white;
+    margin: 40px;
+}
+#img2{
+    background-image: url(imagens/background002.jpg);
+}
+#img1{background-image: url(imagens/background001.jpg);}
